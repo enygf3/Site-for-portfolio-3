@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./style.css" as="style">
+        <link rel="stylesheet" type="text/css" href="./fonts/fonts.css" as="font">
+        <link rel="stylesheet" href="./swiper.min.css">
+
+    </head>
+
+    <body>
+
+      <div class="wrapper">
+
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+      
+          <ul class="menu__box">
+            <li><a class="menu__item menu1" href="#">Home</a></li>
+            <li><a class="menu__item menu2" href="#">Works</a></li>
+            <li><a class="menu__item menu3" href="#">About</a></li>
+            <li><a class="menu__item menu4" href="#">Contact</a></li>
+            <li><a class="menu__item menu5" href="#">Hire us</a></li>
+          </ul>
+        </div>
+        <div class="logo">
+
+            <div class="logo__img"><img src="./img/logo.png" width="100%"></div>
+            <div class="logo__txt">TheProgersTeam</div>
+
+        </div>
+
+        <nav class="side__nav">
+
+          <div class="side__nav__line"></div>
+
+          <ul class="side__nav__items" id="side__nav">
+            <li class="item active" id="item1">01 Home</li>
+            <li class="item" id="item2">02 Works</li>
+            <li class="item" id="item3">03 About</li>
+            <li class="item" id="item4">04 Contact</li>
+            <li class="item" id="item5">05 <span class="no__spacing">Hire us</span></li>
+          </ul>
+
+        </nav>
+
+            <div class="block home__block active" id="home__block">
+
+                <div class="home__img"><img src="./img/introduction-visual.png" width="100%"></div>
+                <div class="bottom__line"></div>
+                <div class="bottom__line__rect"></div>
+                <div class="home__title"><a>Your next<br>interactive<br>expirience</a></div>
+                <div class="hire"><button class="hire__btn" id="hire__btn__id">HIRE US<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"></path>
+                  </g>
+                  </svg></button></div>
+                <div class="home__desc">
+
+                  <div class="metiew"><span class="metiew__title title">METIEW & SMITH</span><br><span class="metiew__desc__1 desc">Lorem ipsum dolor sit amet</span><br><span class="metiew__desc__2 desc">consectetur adipisicing elit sed do.</span></div>
+                  <div class="interactive"><span class="interactive__title title">FANTASY INTERACTIVE</span><br><span class="interactive__desc__1 desc">Lorem ipsum dolor sit amet</span><br><span class="interactive__desc__2 desc">consectetur adipisicing elit sed do.</span></div>
+                  <div class="paul"><span class="paul__title title">PAUL & SHARK</span><br><span class="paul__desc__1 desc">Lorem ipsum dolor sit amet</span><br><span class="paul__desc__2 desc">consectetur adipisicing elit sed do.</span></div>
+
+                </div>
+
+            </div>
+
+          <div class="block works" id="works__block">
+
+            <div class="works__title"><a>Selected work</a></div>
+
+            <div class="slider">
+
+              <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide items1"><img src ="./img/work-metiew-smith.jpg" style="border-radius: 50%;"></div>
+                  <div class="swiper-slide items2"><img src="./img/work-alex-nowak.jpg" style="border-radius: 50%;"></div>
+                  <div class="swiper-slide items3"><img src="./img/work-victory.jpg" style="border-radius: 50%;"></div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="hire other__blocks"><button class="hire__btn"  id="hire__btn__id">HIRE US<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+              <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"></path>
+              </g>
+              </svg></button></div>
+
+          </div>
+
+          <div class="block about__block">
+
+            <div class="about__bg"><img src="./img/about-visual.png"></div>
+            <div class="about__title"><a>We<br>believe in<br>passionate<br>people</a></div>
+            <div class="career"><button class="career__btn" id="career__btn__id">CAREER<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+              <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"></path>
+              </g>
+              </svg></button></div>
+              <div class="about__images">
+                <div class="about__img__left" id="about__img__left"><img src="./img/about-winners.jpg"></div>
+                <div class="about__img__mid" id="about__img__mid"><img src="./img/about-philosophy.jpg"></div>
+                <div class="about__img__right" id="about__img__right"><img src="./img/about-history.jpg"></div>
+              </div>
+              <div class="about__description">
+                <div class="about__text__left about__text" id="about__text__left">WINNERS</div>
+                <div class="about__text__mid about__text" id="about__text__mid">PHILOSOPHY</div>
+                <div class="about__text__right about__text" id="about__text__right">HISTORY</div>
+              </div>
+
+          </div>
+
+          <div class="block contact">
+            <div class="contact__box">
+
+              <div class="contact__text"><span class="location">Belarus, Brestskaya oblast', Drogichin<br></span><span class="our_email">valera.revolver@gmail.com<br></span><span class="number">+704200690</span></div>
+            <div class="contact__buttons">
+              <form action="https://vk.com/theprogersteam" target="https://vk.com/theprogersteam"><button class="vk__btn">VK</button></form>
+              <form action="https://t.me/FrontTPT" target="https://t.me/FrontTPT"><button class="tg__btn">Telegram</button></form>
+              <form action="https://vk.com/v.chap" target="https://vk.com/v.chap"><button class="revolver__btn">Revolver</button></form>
+            </div>
+
+            </div>
+          </div>
+
+          <div class="block hire__us">
+            <div class="hire__us__title"><a>You want us to do</a></div>
+            <div class="hire__us__btns">
+
+              <div class="grid__1__line">
+
+                <div class="app__design"><input type="checkbox" class="checkbox"><label for="app__design" class="button"><svg version="1.1" class="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                  <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                    <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"></path>
+                  </g>
+                  </svg><span class="btn__text">App Design</span></label></div>
+    
+                  <div class="graph__design"><input type="checkbox" class="checkbox"><label for="graph__design" class="button"><svg version="1.1" class="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                    <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                      <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"></path>
+                    </g>
+                    </svg><span class="btn__text">Graphic Design</span></label></div>
+    
+                    <div class="motion__design"><input type="checkbox" class="checkbox"><label for="graph__design" class="button"><svg version="1.1" class="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"></path>
+                      </g>
+                      </svg><span class="btn__text">Motion Design</span></label></div>
+
+              </div>
+
+              <div class="grid__2__line">
+
+                <div class="ux__design"><input type="checkbox" class="checkbox"><label for="ux__design" class="button"><svg version="1.1" class="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                  <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                    <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"></path>
+                  </g>
+                  </svg><span class="btn__text">UX Design</span></label></div>
+
+                  <div class="web__design"><input type="checkbox" class="checkbox"><label for="web__design" class="button"><svg version="1.1" class="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                    <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                      <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"></path>
+                    </g>
+                    </svg><span class="btn__text">Webdesign</span></label></div>
+
+              </div>
+
+                  <div class="grid__3__line">
+
+                    <div class="marketing"><input type="checkbox" class="checkbox"><label for="marketing" class="button"><svg version="1.1" class="check" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"></path>
+                      </g>
+                      </svg><span class="btn__text">Marketing</span></label></div>
+
+                  </div>
+
+            </div>
+
+            <div class="input__fields">
+
+              <div class="name__field">
+                <input type="text" id="name" class="name">
+                <label for="name" class="name__placeholder"><span class="name__txt">Name</span></label>
+              </div>
+
+              <div class="email__field">
+                <input type="text" id="email" class="email">
+                <label for="email" class="email__placeholder"><span class="email__txt">Email</span></label>
+              </div>
+
+            </div>
+
+            <div class="send__btn">
+              <input type="submit" class="send" id="send" value="SEND REQUEST">
+            </div>
+          </div>
+
+      </div>
+
+        
+
+          <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+          <script src="./swiper.min.js"></script>
+          <script src="./index.js"></script>
+    </body>
+
+</html>
